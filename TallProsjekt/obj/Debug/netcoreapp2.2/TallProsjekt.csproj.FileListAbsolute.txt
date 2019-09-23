@@ -1,0 +1,11 @@
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\bin\Debug\netcoreapp2.2\TallProsjekt.deps.json
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\bin\Debug\netcoreapp2.2\TallProsjekt.runtimeconfig.json
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\bin\Debug\netcoreapp2.2\TallProsjekt.runtimeconfig.dev.json
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\bin\Debug\netcoreapp2.2\TallProsjekt.dll
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\bin\Debug\netcoreapp2.2\TallProsjekt.pdb
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\obj\Debug\netcoreapp2.2\TallProsjekt.csprojAssemblyReference.cache
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\obj\Debug\netcoreapp2.2\TallProsjekt.csproj.CoreCompileInputs.cache
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\obj\Debug\netcoreapp2.2\TallProsjekt.AssemblyInfoInputs.cache
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\obj\Debug\netcoreapp2.2\TallProsjekt.AssemblyInfo.cs
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\obj\Debug\netcoreapp2.2\TallProsjekt.dll
+C:\Users\Fedja\Documents\SIDE_PROJECTS\TallProsjekt\obj\Debug\netcoreapp2.2\TallProsjekt.pdb
