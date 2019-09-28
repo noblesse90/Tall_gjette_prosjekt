@@ -63,7 +63,7 @@ namespace TallProsjekt
             this.gjetteMin = 0;
             this.gjetteMaks = this.MaksTall / 2;
 
-        
+
             // Mens gjettefra ikke er samme som maks
             while (this.gjetteMin != this.MaksTall)
             {
@@ -72,13 +72,16 @@ namespace TallProsjekt
 
                 // Spørre bruker om tallet dems er mellom gjette området
                 Console.WriteLine($"Er tallet mellom {this.gjetteMin} og {this.gjetteMaks}?");
-                string svar = Console.ReadLine();
+                //string svar = Console.ReadLine();
+
+
 
                 //Har brukeren svart test
                 //bool harSvar = (svar != null && svar.Length > 0);
 
                 //Hvis brukeren svarer ja på at tallet er i gjette området
-                if (svar?.ToLower().FirstOrDefault() == 'y')
+                //if (svar?.ToLower().FirstOrDefault() == 'y')
+                if (GetY_or_N())
                 {
                     // Nummeret er mellom gjetteFra og gjetteTil
                     // Sette nytt maks nummer
@@ -108,9 +111,10 @@ namespace TallProsjekt
 
                     // Spørre bruker om det er det mindre tallet
                     Console.WriteLine($"Er tallet ditt {this.gjetteMin}?");
-                    svar = Console.ReadLine();
+                    //svar = Console.ReadLine();
                     //Hvis tallet er det mindre tallet
-                    if (svar?.ToLower().FirstOrDefault() == 'y')
+                    //if (svar?.ToLower().FirstOrDefault() == 'y')
+                    if (GetY_or_N())
                     {
                         break;
                     }
@@ -122,6 +126,24 @@ namespace TallProsjekt
                     }
                 }
             }
+        }
+        /// <summary>
+        /// Sjekker om brukeren trykker på Y eller N
+        /// </summary>
+        /// <returns></returns>
+        private bool GetY_or_N()
+        {
+            ConsoleKey response;
+            do
+            {
+                while (Console.KeyAvailable) // Flusher input køen
+                    Console.ReadKey();
+
+                response = Console.ReadKey().Key; // Får tak i brukerens input
+                Console.WriteLine(); // Går ned en linje
+
+            } while (response != ConsoleKey.Y && response != ConsoleKey.N); //Hvis brukeren ikke svarte med Y eller N, gå gjennom loop igjen
+            return response == ConsoleKey.Y;
         }
 
         /// <summary>
